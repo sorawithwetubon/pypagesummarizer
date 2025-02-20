@@ -22,5 +22,3 @@ def summarize(url,maxlength,minlength): # Function to summarize the main content
         maxlength = len(text) # If the length of the main content is less than the maximum length, set the maximum length to the length of the main content.
     summary = summarizer(text, max_length=maxlength, min_length=minlength, do_sample=False)
     return summary[0]['summary_text']
-
-print(summarize("https://edition.cnn.com/2025/02/19/economy/trump-inflation-is-back/index.html",100,30))

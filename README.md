@@ -16,7 +16,7 @@ A Python library to summarize the main content of a webpage using Google T5 AI m
 
 ## Use Prerelease Version
 
-Download main.py from this repository and install the following Python libraries.
+Download pypagesummarizer.py from this repository and install the following Python libraries.
 
 ```bash
   pip install requests
@@ -24,9 +24,10 @@ Download main.py from this repository and install the following Python libraries
   pip install transformers
   pip install torch
 ```
-And run it.
-
-    
+And import into your .py project
+```bash
+  import pypagesummarizer
+```
 ## Functions
 1.Extract the main content from a webpage.
 ```bash
